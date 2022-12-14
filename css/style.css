@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 
-.container{
+body {
+    margin-top: 6rem;
+}
+
+.container {
     background-color: #1B244A;
     font-family: 'Cursed Timer ULiL', sans-serif;
     max-width: 35.94em;
@@ -12,19 +16,22 @@
     margin-inline: auto;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0.31rem;
 }
 
-.home-box .guest-box {
-    max-width: 9.69em;
-    height: 7.50em;
+.home-box,.guest-box{
+    max-width: 17.69em;
+    height: 19.75em;
 }
 
-.title { 
+.title {
     max-width: 9.31em;
     font-size: 2.50em;
     line-height: 2.25em;
     color: #EEEEEE;
     font-family: Verdana, sans-serif;
+    text-align: center;
 }
 
 .score-num {
@@ -37,12 +44,40 @@
 }
 
 .num {
-    margin-inline: auto;
     width: 7.31rem;
     height: 7.50rem;
     color: #F94F6D;
     font-size: 5.63rem;
     line-height: 7.94rem;
     padding: 0 1.125rem 0;
+    text-align: center;
+}
+
+.number-box {
+    max-width: 9.69em;
+    height: 2.81em;
+    margin-top: 1.625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.added-number {
+    width: 2.81rem;
+    height: 2.81rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #9AABD8;
+    border-radius: 0.31em;
+}
+
+.num-text {
+    width: 1.88rem;
+    height: 1.63rem;
+    font-size: 1.13rem;
+    line-height: 1.75em;
+    color: #9AABD8;
     text-align: center;
 }
