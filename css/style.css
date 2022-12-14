@@ -73,6 +73,11 @@ body {
     border-radius: 0.31em;
 }
 
+button {
+    background-color: #1B244A;
+    border: 0;
+}
+
 .num-text {
     width: 1.88rem;
     height: 1.63rem;
